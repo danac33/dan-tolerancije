@@ -360,11 +360,12 @@ body {
         flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
-        height: 20vh;
+        height: 7vh;
+        margin-bottom: -10%;
     }
 
     .main {
-        height: 80vh;
+        height: 70vh;
     }
 
     .video {
@@ -372,7 +373,7 @@ body {
         height: 50%;
     }
     .right-photo {
-        background: url(photos/slika1-tol.png);
+        background: url(photos/2.dio.png);
         background-size: contain;
         background-repeat: no-repeat;
         display: flex;
@@ -383,26 +384,30 @@ body {
     }
     .massive-top-text {
         flex-direction: column-reverse;
-        height: 55%;
+        height: 70%;
+        margin-top: 10%;
+    }
+    .right-link {
+        font-size: 0.4rem;
     }
     .box {
-        height: 30%;
+        height: 40%;
     }
     .left-text {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
     }
     .main-text {
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         width: 95%;
         height: 40%;
     }
     .bottom-right-photo {
         width: 95%;
-        font-size: 0.4rem;
+        font-size: 0.6rem;
         height: 50%;
     }
     .inner-main-top {
-        font-size: 0.4rem;
+        font-size: 0.5rem;
     }
     .bottom-left-photo {
         display: none;
@@ -415,5 +420,19 @@ body {
     }
     * {
         margin:0
+    }
+    .very-top-text {
+        margin-bottom: 10%;
+        display: flex;
+        flex-direction: row;
+    }
+    .boxy {
+        background-color: aqua;
+        border-radius: 10%;
+        height: 15px;
+        width: 15px;
+    }
+    .bot {
+        width: 100vw;
     }
 }
