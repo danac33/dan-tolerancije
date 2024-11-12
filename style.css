@@ -1,0 +1,419 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding-top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background: rgb(143, 143, 143);
+    background: linear-gradient(129deg, rgba(143, 143, 143, 0.8521533613445378) 0%, rgba(255, 255, 255, 0.9810049019607843) 6%, rgba(0, 0, 0, 0.09024859943977592) 37%, rgba(255, 255, 255, 1) 59%, rgba(0, 0, 0, 0.2415091036414566) 96%, rgba(229, 229, 229, 1) 100%);
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 15vh;
+    width: 100%;
+    grid-area: header;
+}
+
+.main-top {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    background: rgba(203, 203, 203, 30);
+    grid-area: main-top;
+}
+.inner-main-top{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    grid-area: inner-main-top;
+}
+.mini-con {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.right-link {
+    width: 25vw;
+}
+.msts-logo {
+    height: 100%;
+    width: 5%;
+    background: url(photos/img-yes.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 55%;
+    width: 95vw;
+}
+
+.bot {
+    width: 95vw;
+    height: 10%;
+    background: rgb(0, 5, 255);
+    background: linear-gradient(90deg, rgba(0, 5, 255, 0.7541141456582633) 0%, rgba(0, 255, 248, 1) 18%, rgba(229, 229, 229, 1) 99%);
+}
+
+.main {
+    margin-top: 2.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 125vh;
+    width: 100%;
+    grid-area: main;
+}
+
+.top {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-area: top;
+}
+
+.left-text {
+    padding: 2.5%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    grid-area: left-text;
+}
+
+.right-photo {
+    background: url(photos/slika1-tol.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 15%;
+    grid-area: right-photo;
+}
+
+.bottom {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    grid-area: bottom;
+}
+
+.massive-top-text {
+    margin-top: 2.5%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    grid-area: MTT;
+}
+
+.video {
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
+    transition: all 0.5s;
+    grid-area: video;
+}
+
+.video:hover {
+    transform: translateX(-2.5px),translateX(2px);
+}
+
+.main-text{
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+    grid-area: main-text;
+}
+
+.bolder {
+    font-weight: bold;
+}
+
+.box {
+    margin-top: 2.5%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.bottom-left-photo {
+    padding: 1%;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./photos/new-img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+    grid-area: bottom-left-photo;
+}
+
+.bottom-left-photo:hover{
+    transform: translateX(-2.5px),translateX(2px);
+    width: 32%;
+    height: 102%;
+}
+
+.bottom-right-photo {
+    font-size: 0.75rem;
+    font-family: cursive;
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    grid-area: bottom-right-text;
+}
+
+.footer {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(203, 203, 203, 30);
+    grid-area: footer;
+}
+
+@media screen and (max-width: 1200px) {
+    .bottom-left-photo {
+        padding: 1%;
+        width: 25%;
+        height: 75%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url(./photos/new-img.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: all 0.5s;
+    }
+    .bottom-right-photo {
+        font-size: 0.5rem;
+        font-family: cursive;
+        width: 65%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:950px) {
+    .main-text{
+        padding: 2%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 80%;
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and  (max-width: 800px) {
+    .left-text {
+        padding: 2.5%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 90%;
+        height: 100%;
+        font-size: 0.8rem;
+    }
+    .bottom-left-photo {
+        padding: 1%;
+        width: 15%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: url(./photos/new-img.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: all 0.5s;
+    }
+    .bottom-right-photo {
+        font-size: 0.5rem;
+        font-family: cursive;
+        width: 65%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main-top {
+        top: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 7.5%;
+        background: rgba(203, 203, 203, 30);
+        font-size: 0.5rem;
+    }
+    .msts-logo {
+        height: 50%;
+        width: 5%;
+        background: url(photos/img-yes.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .video {
+        padding: 1%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 15%;
+        height: 85%;
+        transition: all 0.5s;
+    }
+    .right-photo {
+        background: url(photos/slika1-tol.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        width: 10%;
+    }
+    .main-text{
+        padding: 2%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 80%;
+        font-size: 0.6rem;
+    }
+    .footer {
+        height: 10vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(203, 203, 203, 30);
+        font-size: 0.6rem;
+    }
+    h1 {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .top {
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 20vh;
+    }
+
+    .main {
+        height: 80vh;
+    }
+
+    .video {
+        width: 50vw;
+        height: 50%;
+    }
+    .right-photo {
+        background: url(photos/slika1-tol.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 25vw;
+    }
+    .massive-top-text {
+        flex-direction: column-reverse;
+        height: 55%;
+    }
+    .box {
+        height: 30%;
+    }
+    .left-text {
+        font-size: 0.6rem;
+    }
+    .main-text {
+        font-size: 0.6rem;
+        width: 95%;
+        height: 40%;
+    }
+    .bottom-right-photo {
+        width: 95%;
+        font-size: 0.4rem;
+        height: 50%;
+    }
+    .inner-main-top {
+        font-size: 0.4rem;
+    }
+    .bottom-left-photo {
+        display: none;
+    }
+    .footer {
+        font-size: 0,4rem;
+    }
+    .msts-logo {
+        width: 10%;
+    }
+    * {
+        margin:0
+    }
+}
