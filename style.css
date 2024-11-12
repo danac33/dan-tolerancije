@@ -370,7 +370,7 @@ body {
 
     .video {
         width: 70vw;
-        height: 50%;
+        height: 30%;
     }
     .video iframe {
         height: 100%;
@@ -389,7 +389,7 @@ body {
     .massive-top-text {
         flex-direction: column-reverse;
         height: 70vh;
-        margin-top: 10%;
+        margin-top: 20%;
     }
     .right-link {
         font-size: 0.4rem;
