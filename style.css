@@ -359,17 +359,18 @@ body {
         flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
-        height: 7vh;
-        margin-bottom: -10%;
+        height: 20vh;
+        margin-top: -10%;
     }
 
     .main {
         height: 70vh;
+        padding-bottom: 5%;
     }
 
     .video {
         width: 70vw;
-        height: 60%;
+        height: 100%;
     }
     .video iframe {
         height: 100%;
@@ -387,8 +388,8 @@ body {
     }
     .massive-top-text {
         flex-direction: column-reverse;
-        height: 70%;
-        margin-top: 70%;
+        height: 70vh;
+        margin-top: 10%;
     }
     .right-link {
         font-size: 0.4rem;
@@ -397,7 +398,7 @@ body {
         height: 40%;
     }
     .left-text {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
     .main-text {
         font-size: 0.7rem;
