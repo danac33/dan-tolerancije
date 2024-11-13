@@ -11,4 +11,4 @@ function checkDate() {
 }
 checkDate();
 
-console.log("ovo je radio Danin Harambasic")
+console.log("ovo je radio Danin Harambasic");
