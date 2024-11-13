@@ -370,7 +370,7 @@ body {
 
     .video {
         width: 70vw;
-        height: 50%;
+        height: 40%;
     }
     .video iframe {
         height: 100%;
@@ -401,7 +401,7 @@ body {
         font-size: 0.8rem;
     }
     .main-text {
-        font-size: 0.7rem;
+        font-size: 0.6rem;
         width: 95%;
         height: 40%;
     }
